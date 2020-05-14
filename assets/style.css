@@ -1,0 +1,99 @@
+
+@font-face{
+    font-family: "LBK";
+    src: url("../google-font/LibreBaskerville-Regular.ttf");
+}
+
+   /***************************************************** debut des styles pour  de la page d'accueil******************************************   *******************************************/
+   .container-fluid{
+       padding: 0;
+   }
+html{
+    height: 100%;
+}
+body{
+    height: 90%;
+    padding: 0;
+    font-family: 'LBK', serif;
+}
+
+
+.sou-content{
+    height: 100%;
+}
+body{
+    background-color:rgb(182, 237, 253) !important;
+}
+
+.tr_list{
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+ .i-taille{
+     width: auto;
+     height: auto;
+
+ }
+
+
+
+/*  cette classe permet le changement de la couleur en rouge lorsque on clique exemple sur apprenants */
+.list-group-item.active {
+    z-index: 2;
+    color:white;
+    background-color: rgb(226, 15, 15) ;
+   
+}
+.les_menus {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color:white;
+    border: 1px solid black;
+    color: rgb(158, 17, 17);
+  
+}
+
+
+
+/* LES classe espacement sont utiliser pour l'ajustement des different  bloc du menu  */
+
+
+.i-espacement3{ /* ce espacement intervient sur les menu*/
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+
+/*propriete bootstrap*/
+.i-conteneur{
+    height: 100%;
+   
+}
+
+
+.i-copyr{
+    position: absolute;
+    bottom: 1%;
+
+    color: rgb(10, 10, 10);
+    padding-left: 1%;
+    font-size: 15px;
+}
+
+nav a{ 
+    border-bottom: 2px solid white;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    height: 50px;
+    margin-top: 5px;
+    text-decoration: aliceblue;
+}
+
+
+
+
